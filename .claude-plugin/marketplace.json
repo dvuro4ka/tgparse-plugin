@@ -1,0 +1,19 @@
+{
+  "name": "tgparse",
+  "owner": {
+    "name": "TGParse",
+    "url": "https://github.com/dvuro4ka"
+  },
+  "metadata": {
+    "description": "Плагин TGParse для соцсетей и видео",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tgparse",
+      "source": "./plugins/tgparse",
+      "description": "Исследование соцсетей, расшифровка и скачивание видео, баланс и уникализация по явной просьбе.",
+      "version": "1.0.0"
+    }
+  ]
+}

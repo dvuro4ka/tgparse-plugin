@@ -1,0 +1,20 @@
+{
+  "name": "tgparse",
+  "interface": {
+    "displayName": "TGParse"
+  },
+  "plugins": [
+    {
+      "name": "tgparse",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tgparse-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

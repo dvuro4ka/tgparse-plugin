@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tgparse",
+  "version": "1.0.0",
+  "description": "Исследование соцсетей, расшифровка и скачивание видео, баланс и уникализация по явной просьбе.",
+  "author": {
+    "name": "TGParse",
+    "url": "https://github.com/dvuro4ka"
+  },
+  "homepage": "https://github.com/dvuro4ka/tgparse-plugin",
+  "repository": "https://github.com/dvuro4ka/tgparse-plugin",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "tiktok",
+    "youtube",
+    "social-research",
+    "video"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "TGParse",
+        "shortDescription": "Соцсети, видео и уникализация",
+        "longDescription": "Исследование соцсетей, расшифровка и скачивание видео, баланс и уникализация по явной просьбе.",
+        "developerName": "TGParse",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write",
+          "Interactive"
+        ],
+        "websiteURL": "https://github.com/dvuro4ka/tgparse-plugin",
+        "privacyPolicyURL": "https://telegra.ph/POLITIKA-KONFIDENCIALNOSTI-07-24-157",
+        "termsOfServiceURL": "https://telegra.ph/POLZOVATELSKOE-SOGLASHENIE-07-24-55",
+        "brandColor": "#229ED9",
+        "composerIcon": "./assets/tgparse.png",
+        "logo": "./assets/tgparse.png",
+        "defaultPrompt": [
+          "Разбери этот аккаунт и найди сильные темы контента.",
+          "Сравни эти аккаунты по охвату и вовлечённости.",
+          "Расшифруй лучшие ролики и найди паттерны сценариев."
+        ]
+      }
+    }
+  }
+}

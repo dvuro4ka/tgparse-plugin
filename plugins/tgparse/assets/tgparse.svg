@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">TGParse Social Research</title>
+  <rect width="256" height="256" rx="56" fill="#229ED9"/>
+  <path d="M62 178V122h28v56H62Zm50 0V82h28v96h-28Zm50 0v-76h28v76h-28Z" fill="#fff"/>
+  <circle cx="124" cy="112" r="73" fill="none" stroke="#fff" stroke-width="16"/>
+  <path d="m178 166 37 37" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="18"/>
+</svg>

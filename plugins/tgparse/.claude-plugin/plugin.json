@@ -1,0 +1,25 @@
+{
+  "name": "tgparse",
+  "version": "1.0.0",
+  "description": "Исследование соцсетей, расшифровка и скачивание видео, баланс и уникализация по явной просьбе.",
+  "author": {
+    "name": "TGParse",
+    "url": "https://github.com/dvuro4ka"
+  },
+  "homepage": "https://github.com/dvuro4ka/tgparse-plugin",
+  "repository": "https://github.com/dvuro4ka/tgparse-plugin",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "tiktok",
+    "youtube",
+    "social-research",
+    "video"
+  ],
+  "displayName": "TGParse",
+  "icon": "./assets/tgparse.png",
+  "documentationUrl": "https://github.com/dvuro4ka/tgparse-plugin",
+  "supportUrl": "https://t.me/parser_ai",
+  "privacyPolicyUrl": "https://telegra.ph/POLITIKA-KONFIDENCIALNOSTI-07-24-157",
+  "termsOfServiceUrl": "https://telegra.ph/POLZOVATELSKOE-SOGLASHENIE-07-24-55"
+}

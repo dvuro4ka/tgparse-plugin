@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tgparse": {
+      "type": "http",
+      "url": "https://tgparse-production.up.railway.app/mcp"
+    }
+  }
+}
